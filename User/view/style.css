@@ -1,0 +1,225 @@
+/* Importing Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#form-title {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container .title {
+  font-size: 25px;
+  font-weight: 500;
+  
+}
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box {
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+form .input-box span.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+
+form .experience-details .exp-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .category {
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  justify-content: flex-start;
+  gap: 5rem;
+}
+
+form .category label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+form input[type="radio"] {
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.item-group {
+  font-weight: 500;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+form .button {
+  height: 45px;
+  margin: 35px 0
+}
+
+form .button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  padding-left: 10px;
+}
+
+form .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* optional spacing */
+  
+}
+
+form .button input {
+  width: 150px; /* optional: give it a fixed width */
+}
+
+
+.login-link {
+  margin-top: -30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #9b59b6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* profile page Design */
+
+.profile-box {
+      background: #f2f2f2;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 40px auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .profile-box h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .profile-box ul {
+      list-style: none;
+      padding: 0;
+    }
+    .profile-box li {
+      padding: 8px 0;
+      border-bottom: 1px solid #ccc;
+    }
+    .edit-btn{
+      display: flex;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #9b59b6;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logout-btn,.dlt-btn,.cancel-btn {
+      display: flex;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: rgb(174, 6, 54);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      border: none;
+      
+     
+    }
+
+    .button-group {
+    display: flex;
+    gap: 15px; 
+    margin-top: 10px;
+    justify-content: center;
+    
+    }
+
+
+    
+
+
+
