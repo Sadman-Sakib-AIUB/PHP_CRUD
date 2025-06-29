@@ -42,13 +42,26 @@ This is a **full-stack web application** built with **PHP, MySQL, HTML, CSS, and
 ## 📦 Database Structure
 
 - **Database Name:** `user_management`
-- **Main Table:** `users`
+- **User Table:** `users`
   - `id` (INT, Primary Key, Auto Increment)
   - `fullname` (VARCHAR)
   - `username` (VARCHAR, Unique)
   - `email` (VARCHAR, Unique)
   - `password` (VARCHAR)
-  - `role` (ENUM: 'user', 'admin')
+  - `phoneNumber` (Varchar)
+
+**Admin Table:** `Admin`
+  - `id` (INT, Primary Key, Auto Increment)
+  - `fullname` (VARCHAR)
+  - `username` (VARCHAR, Unique)
+  - `email` (VARCHAR, Unique)
+  - `password` (VARCHAR)
+  - `phoneNumber` (Varchar)
+  - `NidNumber` (Varchar)
+    
+**Product Table:** `Product`
+  - will be updated
+
 
 You can create the database and table using **phpMyAdmin** or import from the provided SQL file (if available).
 
