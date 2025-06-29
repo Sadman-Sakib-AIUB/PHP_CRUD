@@ -37,3 +37,46 @@ This is a **full-stack web application** built with **PHP, MySQL, HTML, CSS, and
 
 ## 🗂️ Project Structure
 
+---
+
+## 📦 Database Structure
+
+- **Database Name:** `user_management`
+- **Main Table:** `users`
+  - `id` (INT, Primary Key, Auto Increment)
+  - `fullname` (VARCHAR)
+  - `username` (VARCHAR, Unique)
+  - `email` (VARCHAR, Unique)
+  - `password` (VARCHAR)
+  - `role` (ENUM: 'user', 'admin')
+
+You can create the database and table using **phpMyAdmin** or import from the provided SQL file (if available).
+
+---
+
+## 🧪 How to Run Locally
+
+1. Clone or download the repository.
+2. Place it in your local server directory (`htdocs` if using XAMPP).
+3. Create the database in **phpMyAdmin** and import the SQL script.
+4. Update the database credentials in `includes/db.php`.
+5. Start Apache & MySQL via XAMPP and visit `http://localhost/project_folder/`.
+
+---
+
+## 🔒 Security Notes
+
+- Passwords are hashed using PHP’s `password_hash()` and verified via `password_verify()`.
+- Input validation and sanitation are implemented on both frontend and backend.
+- Prepared statements or basic SQL escape functions are used to prevent SQL injection.
+
+---
+
+## 📬 Contact
+
+For questions or contributions, feel free to fork the repo, open an issue, or contact me directly.
+
+---
+
+> 🚧 This project was built for learning/demo purposes. You can expand it further with features like email verification, password reset, search/filter functions, and pagination.
+
